@@ -1,0 +1,52 @@
+{
+  "name": "Session extraction",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://graph.org/file/b1be229cc66558e53baeb.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/G_Rthon/Termex2",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": "22651991"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": "ecad214ecff6a5cd90fc141d4e32f597"
+    },
+    "OWNER_ID": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": "5449934255"
+    },
+    "MONGO_DB_URI": {
+      "description": "Get this value from cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://<hamodyroony>:<dd8MPe36qWGT402L>@cluster0.n6gdyyx.mongodb.net/"
+    },
+    "MUST_JOIN": {
+      "description": "Username of a group or channel for which you want to set force sub.(without @)",
+      "required": true,
+      "value": "G_Rthon"
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": "6591731080:AAEmsL1gE0yOlrUp7I_XJXlgoOIC4srM1oo"
+    }
+  }
+}
